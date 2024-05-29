@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-    int main() {
-        printf("hello World!\n");
+int main() {
+  printf("Hello, world!\n");
 
-        int a = 100;
+  int a = 100;
 
-        if (a < 100) {
-            prontf("하하하\n");
-        }
-        return 0;
+  if (a < 100) {
+    prontf("하하하\n");
+  }
+
+  return 0;
 }
