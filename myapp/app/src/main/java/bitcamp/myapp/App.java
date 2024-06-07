@@ -53,14 +53,13 @@ public class App {
                     System.out.println("도움말");
                     break;
                 case 6:
-                    System.out.println("종료합니다.");
                     break;
                 default:
                     System.out.println("메뉴 번호가 옳지 않습니다.");
             }
         }
             while (choice != 6);
-            System.out.println("종료합니다");
-
+            System.out.println("종료합니다.");
+        scanner.close();
     }
 }
