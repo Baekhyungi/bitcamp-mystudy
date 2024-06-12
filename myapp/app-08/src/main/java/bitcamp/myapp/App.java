@@ -1,43 +1,42 @@
 package bitcamp.myapp;
 
 import java.util.InputMismatchException;
+import java.util.Scanner;
 
 public class App {
 
-    static java.util.Scanner keyboardScanner = new java.util.Scanner(System.in);
+    static Scanner keyboardScanner = new Scanner(System.in);
 
-   static String[] menus = new String[] {
-            "회원",
-            "팀",
-            "프로젝트",
-            "게시판",
-            "도움말",
-            "종료"
+    static String[] menus = new String[] {
+        "회원",
+        "팀",
+        "프로젝트",
+        "게시판",
+        "도움말",
+        "종료"
     };
+
     public static void main(String[] args) {
 
-        printMenu();
+        printMenu(); // 메서드에 묶인 코드를 실행하는 것을 "메서드를 호출(call)한다"라고 부른다.
 
         String command;
-
         while (true) {
             try {
-
                 command = prompt();
 
                 if (command.equals("menu")) {
-                  printMenu();
+                    printMenu();
 
                 } else {
                     int menuNo = Integer.parseInt(command);
-                    String menuTitle = getMenuTitle(menuNo);
-
+                    String menuTitle = getMenuTitle(menuNo); // 설명하는 변수
                     if (menuTitle == null) {
                         System.out.println("유효한 메뉴 번호가 아닙니다.");
-                    }else if (menus[menuNo - 1].equals("종료")) {
-                            break;
-                        } else {
-                    System.out.println(menuTitle);
+                    } else if (menuTitle.equals("종료")) {
+                        break;
+                    } else {
+                        System.out.println(menuTitle);
                     }
                 }
             } catch (NumberFormatException ex) {
@@ -49,6 +48,7 @@ public class App {
 
         keyboardScanner.close();
     }
+
     static void printMenu() {
         String boldAnsi = "\033[1m";
         String redAnsi = "\033[31m";
@@ -70,6 +70,7 @@ public class App {
 
         System.out.println(boldAnsi + line + resetAnsi);
     }
+
     static String prompt() {
         System.out.print("> ");
         return keyboardScanner.nextLine();
@@ -80,9 +81,12 @@ public class App {
     }
 
     static String getMenuTitle(int menuNo) {
-        if(isValidateMenu(menuNo)){
-            return menus[menuNo - 1];
-        }
-        return null;
+//        if (isValidateMenu(menuNo)) {
+//            return menus[menuNo - 1];
+//        }
+//        return null;
+
+        return isValidateMenu(menuNo) ? menus[menuNo - 1] : null;
     }
+
 }
