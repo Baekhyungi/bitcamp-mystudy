@@ -17,21 +17,42 @@ import study.oop.clazz.vo.Score;
 //12) 코딩의 일관성을 위해 다른 필드도 getter/setter로 접근하게 만든다.
 //
 public class Test02 {
+  static Score[] scores = {
+      new Score("홍길동", 100, 90, 85),
+      new Score("임꺽정", 90, 80, 75),
+      new Score("유관순", 80, 70, 65)
+  };
   public static void main(String[] args) {
-
-    Score s1 = new Score("홍길동", 100, 90, 85);
-    printScore(s1);
-
-    Score s2 = new Score("임꺽정", 90, 80, 75);
-    printScore(s2);
-
-    Score s3 = new Score("유관순", 80, 70, 65);
-    printScore(s3);
+    printScore();
   }
+  //    Score[] scores = new Score[3];
+  //    scores[0] = new Score("홍길동", 100, 90, 85);
+  //    scores[1] = new Score("임꺽정", 90, 80, 75);
+  //    scores[2] = new Score("유관순", 80, 70, 65);
+  //
+  //    for (Score score : scores) {
+  //      printScore(score);
+  //    }
 
-  static void printScore(Score s) {
-    System.out.printf("%s: %d, %d, %d, %d, %.1f\n",
-        s.getName(), s.getKor(), s.getEng(), s.getMath(), s.getSum(), s.getAver());
+  //  Score s1 = new Score("홍길동", 100, 90, 85);
+  //  printScore(s1);
+
+
+  //  Score s2 = new Score("임꺽정", 90, 80, 75);
+  // printScore(s2);
+
+  //  Score s3 = new Score("유관순", 80, 70, 65);
+  //  printScore(s3);
+
+
+  //  static void printScore(Score s) {
+  //    System.out.printf("%s: %d, %d, %d, %d, %.1f\n", s.getName(), s.getKor(), s.getEng(), s.getMath(), s.getSum(), s.getAver());
+  //  }
+  static void printScore() {
+    for (Score score : scores) {
+      System.out.printf("%s: %d, %d, %d, %d, %.1f\n",
+          score.getName(), score.getKor(), score.getEng(), score.getMath(), score.getSum(), score.getAver());
+    }
   }
 
 }

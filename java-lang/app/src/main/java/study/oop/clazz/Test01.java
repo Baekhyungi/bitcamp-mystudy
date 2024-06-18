@@ -1,5 +1,7 @@
 package study.oop.clazz;
 
+import study.oop.clazz.util.Calculator;
+
 // 연습: 클래스 문법을 메서드 분류하는 용도로 사용
 // 1) 메서드 분류
 // 2) static 필드 사용

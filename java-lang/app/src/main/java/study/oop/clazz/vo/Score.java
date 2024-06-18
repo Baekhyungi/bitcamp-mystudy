@@ -8,7 +8,7 @@ public class Score {
   private int sum;
   private float aver;
 
-  public Score(String name, int kor, int eng, int math) {
+  public Score (String name, int kor, int eng, int math) {
     this.name = name;
     this.kor = kor;
     this.eng = eng;
@@ -21,12 +21,12 @@ public class Score {
     this.aver = (float) this.sum / 3;
   }
 
-  public String getName() {
-    return this.name;
+  public String setName(String name) {
+    return this.name=name;
   }
 
-  public void setName(String name) {
-    this.name = name;
+  public String getName() {
+    return this.name;
   }
 
   public int getKor() {
@@ -63,5 +63,4 @@ public class Score {
   public float getAver() {
     return this.aver;
   }
-
 }
