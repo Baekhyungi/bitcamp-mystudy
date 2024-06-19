@@ -1,7 +1,7 @@
 package bitcamp.myapp.vo;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+import java.util.Date;
+
 
 //  메모리 설계도
 public class Board {
@@ -10,8 +10,9 @@ public class Board {
     // => new 명령을 통해 Heep 메모리에 생성된다.
 
     private String title;
-    private String contents;
-    private LocalDateTime createdDate;
+    private String content;
+    private Date createdDate;
+    //   private LocalDateTime createdDate;
     private int viewCount;
 
 
@@ -23,26 +24,35 @@ public class Board {
         this.title = title;
     }
 
-    public String getContents() {
-        return contents;
+    public String getContent() {
+        return content;
     }
 
-    public void setContents(String contents) {
-        this.contents = contents;
+    public void setContent(String content) {
+        this.content = content;
     }
 
 
-    public String getCreatedDate() {
-        if (createdDate == null) {
-            return null;
-        }
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-        return createdDate.format(formatter);
+    public Date getCreatedDate() {
+        return createdDate;
     }
 
-    public void setCreatedDate(LocalDateTime createdDate) {
+//    public String getCreatedDate() {
+//        if (createdDate == null) {
+//            return null;
+//        }
+//        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+//        return createdDate.format(formatter);
+//    }
+
+
+    public void setCreatedDate(Date createdDate) {
         this.createdDate = createdDate;
     }
+
+//    public void setCreatedDate(LocalDateTime createdDate) {
+//        this.createdDate = createdDate;
+//    }
 
     public int getViewCount() {
         return viewCount;

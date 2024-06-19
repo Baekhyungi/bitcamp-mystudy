@@ -3,7 +3,7 @@ package bitcamp.myapp.command;
 import bitcamp.myapp.util.Prompt;
 import bitcamp.myapp.vo.Board;
 
-import java.time.LocalDateTime;
+import java.util.Date;
 
 public class BoardCommand {
 
@@ -35,8 +35,8 @@ public class BoardCommand {
     private static void addBoard() {
         Board board = new Board();
         board.setTitle(Prompt.input("제목?"));
-        board.setContents(Prompt.input("내용?"));
-        board.setCreatedDate(LocalDateTime.now());
+        board.setContent(Prompt.input("내용?"));
+        board.setCreatedDate(new Date());
         board.setViewCount(0);
         boards[boardLength++] = board;
     }
@@ -45,7 +45,7 @@ public class BoardCommand {
         System.out.println("번호 제목 작성일 조회수");
         for (int i = 0; i < boardLength; i++) {
             Board board = boards[i];
-            System.out.printf("%d, %s,%s, %s\n", (i + 1), board.getTitle(), board.getCreatedDate(), board.getViewCount());
+            System.out.printf("%d, %s,%tY-%3$tm-%3$td, %d\n", (i + 1), board.getTitle(), board.getCreatedDate(), board.getViewCount());
         }
     }
 
@@ -56,12 +56,11 @@ public class BoardCommand {
             return; // return을 하면 함수를 나가는 것!!
         }
         Board board = boards[boardNo - 1];
-        System.out.printf("제목: %s\n", board.getTitle());
-        System.out.printf("내용: %s\n", board.getContents());
-        System.out.printf("작성일: %s\n", board.getCreatedDate());
-        System.out.printf("조회수: %s\n", board.getViewCount());
-
         board.setViewCount(board.getViewCount() + 1);
+        System.out.printf("제목: %s\n", board.getTitle());
+        System.out.printf("내용: %s\n", board.getContent());
+        System.out.printf("작성일: %1$tY-%1$tm-%1$td %1$tH:%1$tM:%1$tS\n", board.getCreatedDate());
+        System.out.printf("조회수: %d\n", board.getViewCount());
     }
 
     private static void updateBoard() {
@@ -71,8 +70,9 @@ public class BoardCommand {
             return;
         }
         Board board = boards[boardNo - 1];
+        board.setViewCount(board.getViewCount() + 1);
         board.setTitle(Prompt.input("제목(%s)?", board.getTitle()));
-        board.setContents(Prompt.input("내용(%s)?", board.getContents()));
+        board.setContent(Prompt.input("내용(%s)?", board.getContent()));
         System.out.println("변경 했습니다.");
     }
 
