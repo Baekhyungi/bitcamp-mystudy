@@ -1,45 +1,57 @@
 package bitcamp.myapp.vo;
 
-//  메모리 설계도
+// 메모리 설계도
 public class User {
 
-    // Non-static(field; 변수) = 인스턴스(instance)필드
-    // => new 명령을 통해 Heep 메모리에 생성된다.
+  private static int seqNo;
 
-    private String name;
-    private String email;
-    private String password;
-    private String tel;
+  private int no;
+  private String name;
+  private String email;
+  private String password;
+  private String tel;
 
-    public String getName() {
-        return name;
-    }
+  public static int getNextSeqNo() {
+    return ++seqNo;
+  }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+  public int getNo() {
+    return no;
+  }
 
-    public String getEmail() {
-        return email;
-    }
+  public void setNo(int no) {
+    this.no = no;
+  }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+  public String getName() {
+    return name;
+  }
 
-    public String getPassword() {
-        return password;
-    }
+  public void setName(String name) {
+    this.name = name;
+  }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
+  public String getEmail() {
+    return email;
+  }
 
-    public String getTel() {
-        return tel;
-    }
+  public void setEmail(String email) {
+    this.email = email;
+  }
 
-    public void setTel(String tel) {
-        this.tel = tel;
-    }
+  public String getPassword() {
+    return password;
+  }
+
+  public void setPassword(String password) {
+    this.password = password;
+  }
+
+  public String getTel() {
+    return tel;
+  }
+
+  public void setTel(String tel) {
+    this.tel = tel;
+  }
 }

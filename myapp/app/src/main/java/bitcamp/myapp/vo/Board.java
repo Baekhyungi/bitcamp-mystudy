@@ -2,63 +2,57 @@ package bitcamp.myapp.vo;
 
 import java.util.Date;
 
-
-//  메모리 설계도
 public class Board {
 
-    // Non-static(field; 변수) = 인스턴스(instance)필드
-    // => new 명령을 통해 Heep 메모리에 생성된다.
+  private static int seqNo;
 
-    private String title;
-    private String content;
-    private Date createdDate;
-    //   private LocalDateTime createdDate;
-    private int viewCount;
+  private int no;
+  private String title;
+  private String content;
+  private Date createdDate;
+  private int viewCount;
 
+  public static int getNextSeqNo() {
+    return ++seqNo;
+  }
 
-    public String getTitle() {
-        return title;
-    }
+  public int getNo() {
+    return no;
+  }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+  public void setNo(int no) {
+    this.no = no;
+  }
 
-    public String getContent() {
-        return content;
-    }
+  public String getTitle() {
+    return title;
+  }
 
-    public void setContent(String content) {
-        this.content = content;
-    }
+  public void setTitle(String title) {
+    this.title = title;
+  }
 
+  public String getContent() {
+    return content;
+  }
 
-    public Date getCreatedDate() {
-        return createdDate;
-    }
+  public void setContent(String content) {
+    this.content = content;
+  }
 
-//    public String getCreatedDate() {
-//        if (createdDate == null) {
-//            return null;
-//        }
-//        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-//        return createdDate.format(formatter);
-//    }
+  public Date getCreatedDate() {
+    return createdDate;
+  }
 
+  public void setCreatedDate(Date createdDate) {
+    this.createdDate = createdDate;
+  }
 
-    public void setCreatedDate(Date createdDate) {
-        this.createdDate = createdDate;
-    }
+  public int getViewCount() {
+    return viewCount;
+  }
 
-//    public void setCreatedDate(LocalDateTime createdDate) {
-//        this.createdDate = createdDate;
-//    }
-
-    public int getViewCount() {
-        return viewCount;
-    }
-
-    public void setViewCount(int viewCount) {
-        this.viewCount = viewCount;
-    }
+  public void setViewCount(int viewCount) {
+    this.viewCount = viewCount;
+  }
 }
