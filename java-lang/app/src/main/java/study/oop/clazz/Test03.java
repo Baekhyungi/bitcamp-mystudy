@@ -3,7 +3,7 @@ package study.oop.clazz;
 public class Test03 {
 
   // nested class
-  class B{} // non-static nested class
+  class B {} // non-static nested class
   static class C {} // static nested class
   Object obj1 = new Object() {}; // anonymous class
 
@@ -12,7 +12,8 @@ public class Test03 {
 
     Object obj2 = new Object() {}; // anonymous class
   }
+
 }
 
-// packager member class
-class A{}
+// package member class
+class A {}

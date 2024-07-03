@@ -1,6 +1,6 @@
 package study.oop.clazz;
 
-import study.oop.clazz.vo.Score;
+import study.oop.clazz.domain.Score;
 
 // 연습: 클래스 문법을 데이터 타입을 정의하는 용도로 사용
 //1) 클래스 사용전:
@@ -22,36 +22,16 @@ public class Test02 {
       new Score("임꺽정", 90, 80, 75),
       new Score("유관순", 80, 70, 65)
   };
+
   public static void main(String[] args) {
     printScore();
   }
-  //    Score[] scores = new Score[3];
-  //    scores[0] = new Score("홍길동", 100, 90, 85);
-  //    scores[1] = new Score("임꺽정", 90, 80, 75);
-  //    scores[2] = new Score("유관순", 80, 70, 65);
-  //
-  //    for (Score score : scores) {
-  //      printScore(score);
-  //    }
 
-  //  Score s1 = new Score("홍길동", 100, 90, 85);
-  //  printScore(s1);
-
-
-  //  Score s2 = new Score("임꺽정", 90, 80, 75);
-  // printScore(s2);
-
-  //  Score s3 = new Score("유관순", 80, 70, 65);
-  //  printScore(s3);
-
-
-  //  static void printScore(Score s) {
-  //    System.out.printf("%s: %d, %d, %d, %d, %.1f\n", s.getName(), s.getKor(), s.getEng(), s.getMath(), s.getSum(), s.getAver());
-  //  }
   static void printScore() {
     for (Score score : scores) {
       System.out.printf("%s: %d, %d, %d, %d, %.1f\n",
-          score.getName(), score.getKor(), score.getEng(), score.getMath(), score.getSum(), score.getAver());
+          score.getName(), score.getKor(), score.getEng(), score.getMath(),
+          score.getSum(), score.getAver());
     }
   }
 

@@ -23,7 +23,9 @@ public class Calculator {
   public int getResult() {
     return this.result;
   }
+
   public void clear() {
     this.result = 0;
   }
+
 }

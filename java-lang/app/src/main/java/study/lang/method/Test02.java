@@ -6,6 +6,7 @@ public class Test02 {
     m1("임꺽정", 30);
     m1("유관순", 18);
   }
+
   static void m1(String name, int age) {
     System.out.printf("%s(%d)님 반갑습니다.\n", name, age);
   }

@@ -5,6 +5,7 @@ public class Test05 {
     int result = m1(0);
     System.out.println(result);
   }
+
   static int m1(int value) {
     value += 1;
     return m2(value);
