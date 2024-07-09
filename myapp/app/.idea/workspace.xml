@@ -4,88 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8bf451-ca90-4fa8-bc6f-aef9d000b4ad" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../bitcamp-study.code-workspace" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docs/GIT.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/GIT.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docs/자바기초3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/자바기초3.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/bitcamp-mystudy.code-workspace" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0120.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0130.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0140.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0141.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0142.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0143.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0150.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0160.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0170.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0210.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0220.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0221.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0310.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0311.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0320.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0330.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0340.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0350.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0351.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0352.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0353.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0354.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0355.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0360.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0410.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0411.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0412.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0420.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0421.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0430.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0431.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0440.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0450.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0460.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0470.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0480.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0481.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0510.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0511.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0520.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0530.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0531.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0610.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0620.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0630.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0631.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0640.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0650.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0660.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0670.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0671.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0672.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0680.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0681.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0682.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex05/Exam0710.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/com/eomcs/lang/ex99/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/study/oop/clazz/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/study/oop/clazz/vo/Score.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/study/oop2/clazz/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/study/oop2/clazz/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/study/oop2/clazz/Test01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/study/oop2/clazz/Test02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java-lang/app/src/main/java/study/oop2/clazz/vo/Score.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-02/src/main/java/bitcamp/myapp/App01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-03/src/main/java/bitcamp/myapp/App01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-04/src/main/java/bitcamp/myapp/App01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-05/src/main/java/bitcamp/myapp/App01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bitcamp/myapp/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bitcamp/myapp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bitcamp/myapp/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bitcamp/myapp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bitcamp/myapp/myapp.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="979bab5a-35f6-489f-ab2b-2875944ba09a" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,13 +14,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
-    <projectState path="$PROJECT_DIR$/../../../bitcamp-study/myapp/app">
-      <ProjectState />
-    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -114,60 +33,58 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2iiywoGLQoTICFcIUPtKp5Xfett" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2iiz6vIuAMphy6uIxfjRu3VmA4k" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/BITCAMP/git/bitcamp-mystudy/myapp/app",
-    "project.structure.last.edited": "SDK",
+    "last_opened_file_path": "C:/Users/BITCAMP/git/bitcamp-study/myapp/app",
+    "project.structure.last.edited": "프로젝트",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="bitcamp.myapp.App" />
-      <module name="app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bitcamp.myapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="app" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="app" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="app" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.app" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="1e8bf451-ca90-4fa8-bc6f-aef9d000b4ad" name="변경" comment="" />
+      <changelist id="979bab5a-35f6-489f-ab2b-2875944ba09a" name="변경" comment="" />
       <created>1719907194375</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
